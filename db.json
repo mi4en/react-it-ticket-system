@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Printer not working",
+      "attention": false,
+      "tech": "Mario Nikolov",
+      "date": "2019-05-31T15:46:10.179Z"
+    },
+    {
+      "id": 2,
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
+      "tech": "Georgi Kovachev",
+      "date": "2019-05-31T16:18:04.245Z"
+    },
+    {
+      "id": 3,
+      "message": "No internet in office 11",
+      "attention": true,
+      "tech": "Aleko Dimitrov",
+      "date": "2019-05-31T15:46:48.690Z"
+    },
+    {
+      "id": 4,
+      "message": "Workstation 026 is up and running",
+      "attention": false,
+      "tech": "Mario Nikolov",
+      "date": "2019-05-31T19:57:35.544Z"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Mario",
+      "lastName": "Nikolov"
+    },
+    {
+      "id": 2,
+      "firstName": "Georgi",
+      "lastName": "Kovachev"
+    },
+    {
+      "id": 3,
+      "firstName": "Aleko",
+      "lastName": "Dimitrov"
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Ignatov",
+      "id": 4
+    }
+  ]
+}
