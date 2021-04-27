@@ -1,11 +1,11 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Add more RAM to all dev machines",
       "attention": false,
       "tech": "Mario Nikolov",
-      "date": "2021-04-27T05:05:24.444Z",
-      "id": 1
+      "date": "2021-04-27T09:40:35.317Z"
     },
     {
       "message": "Reset storage computers to factory settings",
@@ -20,13 +20,6 @@
       "tech": "Aleko Dimitrov",
       "date": "2021-04-27T05:09:09.989Z",
       "id": 3
-    },
-    {
-      "message": "Reset laptop 004 to factory settings",
-      "attention": false,
-      "tech": "Georgi Kovachev",
-      "date": "2021-04-27T05:15:17.932Z",
-      "id": 4
     }
   ],
   "techs": [
