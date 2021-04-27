@@ -50,7 +50,7 @@ export const addLog = log => async dispatch => {
 	try {
 		setLoading();
 
-		const res = await fetch('logs', {
+		const res = await fetch('/logs', {
 			method: 'POST',
 			body: JSON.stringify(log),
 			headers: {
@@ -66,6 +66,7 @@ export const addLog = log => async dispatch => {
 		});
 	} catch (error) {
 		console.error(error);
+		console.log(error.response);
 
 		dispatch({
 			type: LOGS_ERROR,
@@ -79,7 +80,7 @@ export const deleteLog = id => async dispatch => {
 	try {
 		setLoading();
 
-		await fetch(`logs/${id}`, {
+		await fetch(`/logs/${id}`, {
 			method: 'DELETE',
 		});
 
