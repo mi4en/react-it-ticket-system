@@ -20,7 +20,7 @@ const AddTechModal = ({ addTech }) => {
 
 			addTech(newTech);
 
-			M.toast({ html: `Tech added by ${firstName} ${lastName}` });
+			M.toast({ html: `Tech ${firstName} ${lastName} was added.` });
 
 			setFirstName('');
 			setLastName('');
