@@ -1,32 +1,32 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Printer not working",
+      "message": "Add more RAM to all dev machines",
       "attention": false,
       "tech": "Mario Nikolov",
-      "date": "2019-05-31T15:46:10.179Z"
+      "date": "2021-04-27T05:05:24.444Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Fixed hard drive on workstation 002",
+      "message": "Reset storage computers to factory settings",
+      "attention": true,
+      "tech": "Georgi Kovachev",
+      "date": "2021-04-27T05:08:47.649Z",
+      "id": 2
+    },
+    {
+      "message": "Connect printer to workstation 14",
+      "attention": false,
+      "tech": "Aleko Dimitrov",
+      "date": "2021-04-27T05:09:09.989Z",
+      "id": 3
+    },
+    {
+      "message": "Reset laptop 004 to factory settings",
       "attention": false,
       "tech": "Georgi Kovachev",
-      "date": "2019-05-31T16:18:04.245Z"
-    },
-    {
-      "id": 3,
-      "message": "No internet in office 11",
-      "attention": true,
-      "tech": "Aleko Dimitrov",
-      "date": "2019-05-31T15:46:48.690Z"
-    },
-    {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Mario Nikolov",
-      "date": "2019-05-31T19:57:35.544Z"
+      "date": "2021-04-27T05:15:17.932Z",
+      "id": 4
     }
   ],
   "techs": [
